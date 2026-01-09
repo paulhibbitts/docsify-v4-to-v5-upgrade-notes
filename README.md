@@ -65,17 +65,6 @@ https://preview.docsifyjs.org/#/themes
 
 ### 4. Update Plugin URLs
 
-**Zoom Plugin:**
-```html
-<!-- v4 -->
-<script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/plugins/zoom-image.min.js"></script>
-<!-- OR non-versioned: -->
-<script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/zoom-image.min.js"></script>
-
-<!-- v5 -->
-<script src="https://cdn.jsdelivr.net/npm/docsify@5/dist/plugins/zoom.min.js"></script>
-```
-
 **Search Plugin:**
 ```html
 <!-- v4 -->
@@ -85,6 +74,17 @@ https://preview.docsifyjs.org/#/themes
 
 <!-- v5 -->
 <script src="https://cdn.jsdelivr.net/npm/docsify@5/dist/plugins/search.min.js"></script>
+```
+
+**Zoom Plugin:**
+```html
+<!-- v4 -->
+<script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/plugins/zoom-image.min.js"></script>
+<!-- OR non-versioned: -->
+<script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/zoom-image.min.js"></script>
+
+<!-- v5 -->
+<script src="https://cdn.jsdelivr.net/npm/docsify@5/dist/plugins/zoom.min.js"></script>
 ```
 
 **Note:** If you're using additional Docsify plugins (such as emoji, external-script, front-matter, etc.), you'll need to update those URLs as well following the same pattern:
