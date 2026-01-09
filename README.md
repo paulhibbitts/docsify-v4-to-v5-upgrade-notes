@@ -20,6 +20,7 @@ If your site uses URLs without `@4` or a specific version number, follow the sam
 ### 1. Update the Theme CSS
 
 **Replace the theme (v4):**
+
 ```html
 <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
 <!-- OR if you have non-versioned URL: -->
@@ -27,6 +28,7 @@ If your site uses URLs without `@4` or a specific version number, follow the sam
 ```
 
 **With this (v5):**
+
 ```html
 <!-- Core Theme -->
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify@5/dist/themes/core.min.css">
@@ -34,10 +36,12 @@ If your site uses URLs without `@4` or a specific version number, follow the sam
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify@5/dist/themes/addons/core-dark.min.css" media="(prefers-color-scheme: dark)" />
 ```
 
+**Note:** If you were using a different v4 theme (buble, dark, pure), the v5 core theme replaces these, though Vue and Dark themes are available as add-ons if preferred.
+
 Learn more about v5 themes at:  
 [https://preview.docsifyjs.org/#/themes?id=themes](https://preview.docsifyjs.org/#/themes?id=themes)
 
-### 2. Add Optional Body Classes (for styling)
+### 2. Add Optional Body Class (for styling)
 
 **Update your opening body tag:**
 ```html
@@ -96,14 +100,14 @@ Learn more about v5 theme classes at:
 
 - **CDN Path**: Changed from `/lib/` to `/dist/`
 - **Version**: Updated from `@4` to `@5`
-- **Theme**: Vue theme → Core theme (with optional dark mode)
+- **Themes**: v5 uses a core theme (with optional add-ons available)
 - **Plugin Names**: `zoom-image` → `zoom`
 
 ## Additional Information
 
 - Your configuration in `window.$docsify` stays the same
 - All your markdown content remains unchanged
-- Dark mode support is now built-in (optional)
-- The upgrade is non-breaking for most sites
+- The upgrade is non-breaking for most sites (however, legacy browsers like Internet Explorer 11 are no longer supported)
+- The v5 core theme can be customized using CSS variables - learn more at [https://preview.docsifyjs.org/#/themes?id=customization](https://preview.docsifyjs.org/#/themes?id=customization)
 
 That's it! Your Docsify site should now be running on v5.
