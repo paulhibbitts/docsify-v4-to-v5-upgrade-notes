@@ -37,7 +37,7 @@ If your site uses URLs without `@4` or a specific version number, follow the sam
 Learn more about v5 themes at:  
 [https://preview.docsifyjs.org/#/themes?id=themes](https://preview.docsifyjs.org/#/themes?id=themes)
 
-### 2. Add Optional Body Class (for styling)
+### 2. Add Optional Body Classes (for styling)
 
 **Update your opening body tag:**
 ```html
