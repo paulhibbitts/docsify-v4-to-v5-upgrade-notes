@@ -2,7 +2,7 @@
 
 These notes walk you through upgrading your Docsify site from v4 to v5.
 
-## Quick Overview
+## Overview
 
 The main changes involve updating CDN URLs and theme files. Your configuration settings remain mostly the same, so the upgrade is fairly straightforward.
 
