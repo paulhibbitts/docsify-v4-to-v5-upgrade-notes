@@ -34,8 +34,8 @@ If your site uses URLs without `@4` or a specific version number, follow the sam
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify@5/dist/themes/addons/core-dark.min.css" media="(prefers-color-scheme: dark)" />
 ```
 
-Learn more at:  
-https://preview.docsifyjs.org/#/quickstart
+Learn more about v5 themes at:  
+[https://preview.docsifyjs.org/#/themes?id=themes](https://preview.docsifyjs.org/#/themes?id=themes)
 
 ### 2. Add Optional Body Class (for styling)
 
@@ -46,8 +46,8 @@ https://preview.docsifyjs.org/#/quickstart
 
 This adds a chevron indicator to the sidebar. You can omit this if you prefer.
 
-Learn more at:  
-https://preview.docsifyjs.org/#/themes
+Learn more about v5 theme classes at:  
+[https://preview.docsifyjs.org/#/themes?id=classes](https://preview.docsifyjs.org/#/themes?id=classes)
 
 ### 3. Update the Main Docsify Script
 
