@@ -99,7 +99,7 @@ https://preview.docsifyjs.org/#/themes
 - **Theme**: Vue theme → Core theme (with optional dark mode)
 - **Plugin Names**: `zoom-image` → `zoom`
 
-## Notes
+## Additional Information
 
 - Your configuration in `window.$docsify` stays the same
 - All your markdown content remains unchanged
