@@ -1,4 +1,4 @@
-# Docsify v4 to v5 Upgrade Guide
+# Docsify v4 to v5 Upgrade Notes
 
 This guide covers the key changes needed to upgrade your Docsify site from v4 to v5.
 
